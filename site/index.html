@@ -74,13 +74,10 @@
             <a class="nav-link active" href="./index.html">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Doações</a>
+            <a class="nav-link" href="#">Eventos e Doações</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Localização</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
           </li>
           <li class="nav-item ml-auto">
             <a
@@ -123,7 +120,39 @@
     <!-- Parte Principal do site -->
     <div class="container-fluid parallax">
       <div class="row">
-        <div class="col-sm-2"></div>
+        <div class="col-sm-2 rounded">
+          <h1 class="text-center rounded bg-azure">Notas</h1>
+          <button
+            type="button"
+            class="btn"
+            data-toggle="modal"
+            data-target="#myModal"
+          >
+            <img
+              id="myImg"
+              src="./img/122168958_3409633592406729_8153733914547571891_o.jpg"
+              class="img-thumbnail"
+              alt=""
+              width="100%"
+            />
+          </button>
+          <!-- The Modal -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img
+                    id="myImg"
+                    src="./img/122168958_3409633592406729_8153733914547571891_o.jpg"
+                    class="rounded"
+                    alt=""
+                    width="100%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-sm-8 bg-azure rounded">
           <main>
             <h1 class="text-center">Visitas Proibidas!</h1>
@@ -152,8 +181,10 @@
             <p class="text-justify">
               Caso tenhas estes sintomas, procure se isolar, e alerte as
               Autoridades de Saúde o mais próximo a sua casa, aqui em Nossa
-              Cidade os telefones estão na página oficial da Prefeitura
-              http://www.santarosa.sp.gov.br.
+              Cidade os telefones estão na
+              <a target="_blank" href="http://www.santarosa.sp.gov.br"
+                >página da Prefeitura</a
+              >.
             </p>
             <img
               src="./img/imagens-sintomas-covid19-coronavirus-1024x258-1.png"
@@ -167,7 +198,9 @@
             </h3>
           </main>
         </div>
-        <div class="col-sm-2"></div>
+        <div class="col-sm-2">
+          <h1 class="text-center rounded bg-azure">Contato</h1>
+        </div>
       </div>
     </div>
 
