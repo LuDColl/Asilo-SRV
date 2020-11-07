@@ -1,78 +1,72 @@
-
-/* Alguma coisa pra fazer funciona algo*/
-body,
-html {
-  height: 100%;
-}
-
 /* Definindo propriedades no logo da Navbar */
 #logo {
-  margin: auto;
-  background-image: linear-gradient(
-    rgba(240, 255, 255, 0.93),
-    rgba(240, 255, 255, 0.93)
-  );
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Definindo atributo de bg-collor no tema Azure */
-.bg-azure {
-  background-color: azure;
-}
-
-/* Definindo o Badge para acompanhar o H3 */
-.badge {
-  font-size: 1.75rem;
-}
-
-/* Definindo o padding dos links da NavBar */
-.navbar-nav .nav-link {
-  padding: 0.5rem 1rem;
-}
-
-/* Definindo a cor do F da logo do facebook */
-.p361ku9c {
-  fill: whitesmoke;
-}
-
-/* Definindo a cor dos Links da Navbar como Preto */
-.navbar-light .navbar-nav .nav-link {
-  color: black;
-}
-
-/* Definindo a cor do Hover do link da Navbar na cor do tema */
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #009dff;
-}
-
-/* Definindo a cor do Link ativo da Navbar na cor do tema */
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: azure;
-}
-
-/* Definindo a bg do Link ativo da Navbar na cor do tema */
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #009dff;
-}
-
-/* Efeito parallax da imagem de fundo */
-.parallax {
-  /* The image used */
-  background-image: url("../img/58377953_443414979762986_6402937837582286848_n.jpg");
-
-  /* Set a specific height */
-  height: 256px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+    margin: auto;
+    background-image: linear-gradient(
+      rgba(240, 255, 255, 0.93),
+      rgba(240, 255, 255, 0.93)
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Definindo atributo de bg-collor no tema Azure */
+  .bg-azure {
+    background-color: azure;
+  }
+  
+  /* Definindo o Badge para acompanhar o H3 */
+  .badge {
+    font-size: 1.75rem;
+  }
+  
+  /* Definindo o padding dos links da NavBar */
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Definindo a cor do F da logo do facebook */
+  .p361ku9c {
+    fill: whitesmoke;
+  }
+  
+  /* Definindo a cor dos Links da Navbar como Preto */
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+  }
+  
+  /* Definindo a cor do Hover do link da Navbar na cor do tema */
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #009dff;
+  }
+  
+  /* Definindo a cor do Link ativo da Navbar na cor do tema */
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: azure;
+  }
+  
+  /* Definindo a bg do Link ativo da Navbar na cor do tema */
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    background-color: #009dff;
+  }
+  
+  /* Efeito parallax da imagem de fundo */
+  .parallax {
+    /* The image used */
+    background-image: url("../img/58377953_443414979762986_6402937837582286848_n.jpg");
+  
+    /* Set a specific height */
+    height: 256px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
