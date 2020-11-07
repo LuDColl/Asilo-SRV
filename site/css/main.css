@@ -66,8 +66,14 @@
   background-size: cover;
 }
 
+/*Botão da imagem Modal*/
 .btn {
   background-color: azure;
   border: 0px solid transparent;
   padding: 0;
+}
+
+.quebrada {
+  width: 100%;
+  word-wrap: break-word;
 }
