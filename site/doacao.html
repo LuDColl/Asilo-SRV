@@ -71,13 +71,13 @@
       >
         <ul class="navbar-nav align-items-center flex-grow-1">
           <li class="nav-item">
-            <a class="nav-link active" href="./index.html">Início</a>
+            <a class="nav-link" href="./index.html">Início</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./eventos.html">Eventos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./doacao.html">Doação</a>
+            <a class="nav-link active" href="./doacao.html">Doação</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./localizacao.html">Localização</a>
@@ -157,55 +157,49 @@
           </div>
         </aside>
         <main class="col-sm-8 rounded">
-          <section class="bg-azure rounded">
-            <h1 class="text-center">Visitas Proibidas!</h1>
-            <p class="text-justify">
-              Adoramos receber a visitas de todos vocês, aqui no Asilo de Santa
-              Rosa, mas infelizmente devido ao Surto do Novo Vírus (Corona
-              Virus/ Covid-19), que tem alta taxa de letalidade na população
-              mais idosa, tivemos que cancelar todas as visitas a nossa casa.
-              Agradecemos o cuidado e o carinho que todos tem por nós, e nós
-              também nos preocupamos muito com vocês, por isto, lembrem-se de
-              nossos conselhos e ordens, lave suas mãos ao chegar da rua, abaixo
-              colocamos as orientações da Saúde, mas sinceramente tudo que vai
-              ler, você já ouviu muito da gente, agora basta colocar em prática:
-            </p>
-          </section>
-          <section class="bg-azure rounded">
-            <h1 class="text-center">Formas de Prevenção</h1>
-            <p class="text-center">
-              Sempre que não for possível lavar as mãos, use o álcool em gel.
-            </p>
-            <img
-              src="./img/formas-de-prevencao-covid19-coronavirus-1024x258-1.png"
-              class="rounded"
-              alt="formas de prevenção"
-              width="100%"
-            />
-          </section>
-          <section class="bg-azure rounded">
-            <h1 class="text-center">Principais Sintomas</h1>
-            <p class="text-justify">
-              Caso tenhas estes sintomas, procure se isolar, e alerte as
-              Autoridades de Saúde o mais próximo a sua casa, aqui em Nossa
-              Cidade os telefones estão na
-              <a target="_blank" href="http://www.santarosa.sp.gov.br"
-                >página da Prefeitura</a
-              >.
-            </p>
-            <img
-              src="./img/imagens-sintomas-covid19-coronavirus-1024x258-1.png"
-              class="rounded"
-              alt="formas de prevenção"
-              width="100%"
-            />
-          </section>
-          <section class="bg-azure rounded">
-            <h3 class="text-center">
-              Esperamos que esta epidemia passe rápido e que todos fiquem muito
-              bem, desta forma, ficaremos ansiosos pela liberação das visitas
-            </h3>
-          </section>
+          <div class="container3">
+            <form action="action_page.php">
+              <label for="fname">Nome</label>
+              <input
+                type="text"
+                id="fname"
+                name="firstname"
+                placeholder="Seu nome..."
+              />
+
+              <label for="lname">Sobrenome</label>
+              <input
+                type="text"
+                id="lname"
+                name="lastname"
+                placeholder="Seu sobrenome..."
+              />
+              <label for="lemail">E-mail</label>
+              <input
+                type="text"
+                id="lemail"
+                name="lemail"
+                placeholder="Seu email..."
+              />
+
+              <label for="country">Cidade</label>
+              <select id="country" name="country">
+                <option value="australia">Cravinhos</option>
+                <option value="canada">Ribeirão Preto</option>
+                <option value="usa">Santa Rosa de Viterbo</option>
+              </select>
+
+              <label for="subject">Doação ou Pergunta</label>
+              <textarea
+                id="subject"
+                name="subject"
+                placeholder="Digite aqui..."
+                style="height: 200px"
+              ></textarea>
+
+              <input type="submit" value="Enviar" />
+            </form>
+          </div>
         </main>
         <address class="col-sm-2">
           <h1 class="text-center rounded bg-azure">Contato</h1>
